@@ -42,26 +42,16 @@ A creative twist on the classic Snake game implemented in Python using Pygame. T
 ## 🚀 Installation
 
 1. Clone this repository:
-   ```bash
    git clone https://github.com/yourusername/enhanced-snake-game.git
    cd enhanced-snake-game
-   ```
 
 2. Install the required packages:
-   ```bash
    pip install -r requirements.txt
-   ```
+
 
 3. Run the game:
-   ```bash
    python game.py
-   ```
 
-## 🛠️ Dependencies
-
-- Python 3.x
-- Pygame 2.5.2
-- NumPy (for sound generation)
 
 ## 🎯 Game Objectives
 
@@ -70,20 +60,3 @@ A creative twist on the classic Snake game implemented in Python using Pygame. T
 - Collect power-ups strategically
 - Avoid obstacles and manage your snake's length
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-1. Fork the repository
-2. Create a new branch
-3. Make your changes
-4. Submit a pull request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Inspired by the classic Snake game
-- Built with Pygame
-- Sound effects generated using synthesized 8-bit style audio
