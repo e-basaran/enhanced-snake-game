@@ -4,7 +4,7 @@ from settings import *
 class Menu:
     def __init__(self, screen):
         self.screen = screen
-        self.font = pygame.font.Font(None, 48)
+        self.font = pygame.font.SysFont('Comic Sans MS', 48)
         self.selected = 0
         self.options = ['1 Player', '2 Players', 'Quit']
         
