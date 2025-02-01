@@ -97,17 +97,17 @@ class Snake:
             # Draw shield effect
             if self.shield_mode and i == 0:
                 pygame.draw.rect(screen, CYAN, (segment[0], segment[1], GRID_SIZE - 1, GRID_SIZE - 1), 2)
-    
+    #color of snake changed
     def get_snake_color(self, is_head):
         if is_head:
             if self.ghost_mode:
                 return PURPLE
             elif self.speed_boost:
-                return BLUE
+                return GREEN
             elif self.shield_mode:
-                return CYAN
+                return YELLOW
             elif self.is_shrunk:
-                return ORANGE
+                return RED
         
         # Body color depends on player number
         return GREEN if self.player_number == 1 else RED
